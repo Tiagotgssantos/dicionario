@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    background:#5e5f62 ;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(120deg,rgb(35, 35, 68),rgb(35, 34, 34));
+    border-radius: 10px;
+}
+
+
+
+.titulo{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: rgb(222, 216, 216);
+    letter-spacing: 3px;
+}
+
+.menu-top-list{
+    position: relative;
+    top: 20px;
+}
+
+.menu-top-list ul{
+    text-align: center;
+}
+
+.menu-top-list ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-top-list ul li a{
+    display: block;
+    color: #dcd8d8;
+    text-decoration: none;
+    padding: 5px;
+    transition: .1s;
+}
+
+.menu-top-list ul li a:hover{
+
+    color: #71B19A;
+   
+}
+
+.fundo-vidro{
+
+    position: relative;
+    top: 50px;
+    background: linear-gradient(90deg,rgb(77, 108, 146),rgb(8, 8, 60));
+    width: 100%;
+    
+   
+}
+
+.espelho{
+    position: relative;
+    top: 30px;
+    width: 90%;
+    height: 150px; 
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgba(122, 98, 98, 0.1); /* cor de fundo com transparência */
+   backdrop-filter: blur(15px); /* desfoca o conteúdo por trás */
+   border-radius: 10px; /* bordas arredondadas */
+   padding: 20px; /* espaçamento interno */
+}
+
+#texto{
+    color: #faf9ff;
+    font-size: 2.1rem;
+    
+}
+
+.container{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(90deg,rgb(23, 26, 47),rgb(23, 26, 47));
+    height: 80px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.container:hover{
+    background: linear-gradient(90deg,rgb(23, 26, 47),rgb(67, 67, 172));
+}
+
+.vidro{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    border-radius: 20%;
+    height: 70Px;
+    background-color: rgba(122, 98, 98, 0.1); /* cor de fundo com transparência */
+    backdrop-filter: blur(15px); /* desfoca o conteúdo por trás */
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno */
+}
+
+.container h3{
+    color: #d6d2d2;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.icon{
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    color: #dcd8d8;
+}
+
+.cantainer-links{
+    display: block;
+    text-decoration: none;
+    color: #ede7e7;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background: #71B19A;
+}
+
+#caixa{
+    position: absolute;
+    width: 80%;
+    height: 75%;
+    background: linear-gradient(90deg,rgb(13, 14, 18),rgb(8, 10, 18));
+    left: 10%; 
+    top: 25%;
+    display: none;
+    background-image: url(/paginas/imagens/line-grey-background-lines-fon-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+   
+}
+
+#cxfechar1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    top: -15px;
+    left: -15px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background: #b30c0c;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+#conteudo{
+    
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+   
+   
+   
+}
+#conteudo::-webkit-scrollbar{
+    width: 5px;
+    border: 1px solid rgba(51, 51, 147, 0.1);
+}
+#conteudo::-webkit-scrollbar-thumb{
+    background: hsl(223, 33%, 45%);
+    border-radius: 10px;
+}
+#caixa ul li{
+    list-style: none;
+    
+}
+
+#caixa ul{
+    position: relative;
+    margin: 2% 10%;
+    padding: 5px 5px;
+    border-radius: 10Px;
+    
+}
+
+.javascript-titulo{
+    position: relative;
+    color: rgb(232, 144, 21);
+    text-align: center;
+    top: 2%;
+    font-size: 2.1rem;
+   
+}
+
+.sub-titulo{
+    position: relative;
+    top: -6px;
+    left: 1px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.javascript-link{
+    color:#d7d0d0;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 1.1rem;
+    margin: 2px 0;
+    border-radius: 10px;
+    background: linear-gradient(90deg,rgba(16, 18, 23,0.4),rgba(33, 38, 52,0.2)); /* cor de fundo com transparência */
+    backdrop-filter: blur(15px); /* desfoca o conteúdo por trás */
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno */
+    font-family: 'Roboto Mono', monospace;
+    transition: ease-in-out;
+}
+.javascript-link:hover{
+    position: relative;
+    border: 1px solid #fff;
+    text-align: center;
+    background: linear-gradient(90deg,rgba(33, 49, 39, 0.8),rgba(5, 36, 23, 0.8));
+}
+
+#javascript-icon-not{
+    position: absolute;
+    right: 5%;
+    color: orange;
+}
+#javascript-icon-eye{
+    position: absolute;
+    right: 5%;
+    color: rgb(56, 201, 203);
+}
+
+
+@media screen and (min-width:40rem /*640/16*/) {
+    #menu-top{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px;
+
+    }
+
+    .menu-top-list ul li a{
+        font-size: 1rem;
+    }
+
+    .Bem-vindo{
+        font-size: 2rem;
+    }
+
+    .menu-top-list ul li{
+        position: relative;
+        margin: 0 10px;
+    }
+
+    .container h3{
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+@media screen and (min-width:57rem){
+    .assunto{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 100px;
+    }
+
+    .titulo{
+        font-size: 2rem;
+    }
+
+    
+
+    .container{
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        height: 120px;
+        margin: 0 50px;
+    }
+
+    .vidro{
+        position: relative;
+        top: 10px;
+        left: 15px;
+        width: 100%;
+        border-radius: 30%;
+        height: 130Px;
+        background-color: rgba(122, 98, 98, 0.1); /* cor de fundo com transparência */
+        backdrop-filter: blur(15px); /* desfoca o conteúdo por trás */
+        border-radius: 10px; /* bordas arredondadas */
+        padding: 20px; /* espaçamento interno */
+    }
+    
+    .container h3{
+        font-size: 1.6rem;
+    }
+
+    .icon{
+        font-size: 1.5rem;
+    }
+
+    .cantainer-links{
+        padding: 8px 25px;
+    }
+
+   
+}
+
+@media screen and (min-width:60rem){
+    .container{
+        display: inline-block;
+        width: 250px;
+        margin: 0 50px;
+    }
+
+    .menu-top-list ul li{
+        position: relative;
+        margin: 0 30px;
+    }
+
+    
+    
+}

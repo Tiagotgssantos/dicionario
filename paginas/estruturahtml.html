@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionario do programador</title>
+    <link rel="stylesheet" href="/paginas/estruturahtml.css">
+    <script src="https://kit.fontawesome.com/515f6fd498.js" crossorigin="anonymous"></script>
+
+    <style>
+        .search-container {
+          position: relative;
+          text-align: center;
+          top: 40px;
+        }
+        
+        #search-input {
+          width: 90%;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+        }
+        
+        #search-results {
+          position: absolute;
+          left: 0;
+          z-index: 1;
+          width: 100%;
+          max-height: 200px;
+          overflow-y: auto;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          box-shadow: 0 2px 4px rgba(0,0,0,.1);
+          display: none;
+        }
+        
+        #search-results li {
+          padding: 10px;
+          cursor: pointer;
+          text-align: start;
+        }
+        
+        #search-results li:hover {
+          background-color: #f4f4f4;
+        }
+        
+        .pesq{
+            position: absolute;
+            right: 8%;
+            top: 30%;
+        }
+        
+        </style>
+</head>
+<body>
+    
+        <nav id="menu-top">
+            <h2 class="titulo">Dicionário</h2>
+            <div class="menu-top-list">
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="#">Sobre mim</a></li>
+                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#">Experiência</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <div class="search-container">
+                <span class="pesq"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" id="search-input" placeholder="Digite aqui para pesquisar..." autocomplete="off">
+                <ul id="search-results"></ul>
+            </div>
+            
+        </div>
+
+        <main>
+            <div class="fundo-vidro">
+                <div class="espelho">
+                    <h2 class="Bem-vindo"> 
+                       Estrutura html</h2>
+                <pre>
+<code class="codigo">
+    &lt;!DOCTYPE html &gt; <button id="btn" class="btn-icon"><i class="fa-solid fa-eye"></i> Definição</button>
+    &lt;html lang="pt-BR"&gt; <button id="btn2" class="btn-icon"><i class="fa-solid fa-eye"></i> Definição</button>
+    &lt;head&gt; <button id="btn3" class="btn-icon-not"><i id="javascript-icon-not" class="fa-sharp fa-solid fa-circle-exclamation"></i></i> Definição</button>
+        &lt;meta charset="UTF-8"&gt; <button id="btn4" class="btn-icon-not"><i id="javascript-icon-not" class="fa-sharp fa-solid fa-circle-exclamation"></i> Definição</button>
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; <button id="btn5" class="btn-icon-not"><i id="javascript-icon-not" class="fa-sharp fa-solid fa-circle-exclamation"></i> Definição</button>
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <button id="btn6" class="btn-icon-not"><i id="javascript-icon-not" class="fa-sharp fa-solid fa-circle-exclamation"></i> Definição</button>
+        &lt;title&lt;Document&lt;/title&gt; <button id="btn7" class="btn-icon-not"><i id="javascript-icon-not" class="fa-sharp fa-solid fa-circle-exclamation"></i> Definição</button>
+    &lt;/head&gt; 
+    &lt;body&gt; <button id="btn8" class="btn-icon-not"><i id="javascript-icon-not" class="fa-sharp fa-solid fa-circle-exclamation"></i> Definição</button>
+            
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code>
+
+                </pre>
+                </div>
+                <div id="pagina">
+                    <button id="btnFechar"><i class="fa-solid fa-xmark"></i></button>
+                    <p>!DOCTYPE <br> <br>
+                        É uma diretiva HTML que especifica o tipo de documento (ou versão do HTML) que está sendo usado em uma página web.
+                        <br> Ela é usada pelo navegador para interpretar corretamente o código HTML da página.
+                         A declaração !DOCTYPE deve ser a primeira coisa que aparece em um arquivo HTML e é seguida pelo nome do tipo de documento.</p>
+                </div>
+
+                <div id="pagina2">
+                    <button id="btnFechar2"><i class="fa-solid fa-xmark"></i></button>
+                    <p>html lang = "pt-Br"<br> <br>
+                    O lang usada para especificar o idioma do conteúdo de uma página da web. O atributo "lang" é usado para especificar o idioma do conteúdo da página.  Por exemplo, "pt-BR" é usado para especificar o português do Brasil. <br> Essa informação é importante para navegadores, motores de busca e outros softwares que precisam identificar o idioma da página para fornecer uma experiência mais apropriada ao usuário.
+           
+            </div>
+            
+            
+        </main>
+    
+    <script src="/paginas/estruturahtml.js"></script>
+</body>
+</html>

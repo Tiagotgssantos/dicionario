@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    background:#504B4B ;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(120deg,rgb(35, 35, 68),rgb(35, 34, 34));
+    border-radius: 10px;
+}
+
+
+
+.titulo{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: rgb(222, 216, 216);
+    letter-spacing: 3px;
+}
+
+.menu-top-list{
+    position: relative;
+    top: 20px;
+}
+
+.menu-top-list ul{
+    text-align: center;
+}
+
+.menu-top-list ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.menu-top-list ul li a{
+    display: block;
+    color: #dcd8d8;
+    text-decoration: none;
+}
+
+.fundo-vidro{
+
+    position: relative;
+    top: 50px;
+    height: 150px;
+    background: linear-gradient(90deg,rgb(88, 123, 166),rgb(8, 8, 60));
+}
+
+.espelho{
+    position: relative;
+    top: 30px;
+    width: 90%;
+    height: 350px; 
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgba(122, 98, 98, 0.1); /* cor de fundo com transparência */
+   backdrop-filter: blur(15px); /* desfoca o conteúdo por trás */
+   border-radius: 10px; /* bordas arredondadas */
+   padding: 20px; /* espaçamento interno */
+   overflow: auto;
+}
+
+.espelho::-webkit-scrollbar{
+    width: 5px;
+    border: 1px solid rgba(51, 51, 147, 0.1);
+}
+.espelho::-webkit-scrollbar-thumb{
+    background: hsl(223, 33%, 45%);
+    border-radius: 10px;
+}
+
+.Bem-vindo{
+    color: #dadae2;
+}
+
+.codigo{
+    color: #d7d3d3;
+}
+
+/*paginas de definição*/
+.btn-icon{
+    background: none;
+    padding: 4px;
+    border: 0.7px solid #588d90;
+    border-radius: 10%;
+    color: #68d7ab;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+
+.btn-icon:hover{
+    color: aqua;
+    border: 0.7px solid aqua;
+}
+
+.btn-icon-not{
+    background: none;
+    padding: 4px;
+    border: 0.7px solid orange;
+    border-radius: 10%;
+    color: orange;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+
+
+#pagina{
+    position: absolute;
+    width:80%;
+    height: 410px;
+    top: 30%;
+    left: 10%;
+    background: linear-gradient(90deg,rgb(45, 69, 98),rgb(73, 81, 104));
+    padding: 10px;
+    display: none; 
+    color: #c6bfbf;
+    border-radius: 15px;
+    
+}
+
+#pagina p{
+    position: relative;
+    top: 10%;
+    margin: 2%;
+    font-size: 1.1rem;
+    
+}
+
+#btnFechar{
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background: #b30c0c;
+    color: #fff;
+}
+
+#pagina2{
+    position: absolute;
+    width:80%;
+    height: 410px;
+    top: 30%;
+    left: 10%;
+    background: linear-gradient(90deg,rgb(45, 69, 98),rgb(73, 81, 104));
+    padding: 10px;
+    display: none;
+    color: #c6bfbf;
+    border-radius: 15px;
+    
+}
+
+#btnFechar2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background: #b30c0c;
+    color: #fff;
+}
+
+#pagina2 p{
+    position: relative;
+    font-size: 1.1rem;
+    top: 10%;
+    margin: 2%;
+}
+
+@media screen and (min-width:40rem) {
+    #menu-top{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px;
+
+    }
+
+    .menu-top-list ul li a{
+        font-size: 1rem;
+    }
+
+    .Bem-vindo{
+        font-size: 2rem;
+    }
+
+    .menu-top-list ul li{
+        position: relative;
+        margin: 0 10px;
+    }
+
+    
+}
+
+@media screen and (min-width:57rem){
+    .assunto{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 100px;
+    }
+
+    .titulo{
+        font-size: 2rem;
+    }
+  
+}
+
+@media screen and (min-width:60rem){
+
+    .menu-top-list ul li{
+        position: relative;
+        margin: 0 30px;
+    }
+}
