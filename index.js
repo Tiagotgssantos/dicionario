@@ -69,6 +69,50 @@ let cxfechar1 = document.getElementById("cxfechar1");
 
 cxfechar1.addEventListener('click', abrirFechar1);
 
+
+//caixa 2
+let caixa2 = document.getElementById("caixa2");
+let enter2 = document.getElementById("enter2");
+
+function abrirFechar2(){
+  if(caixa2.style.display==="block"){
+    caixa2.style.display = "none";
+  }else{
+    caixa2.style.display = "block";
+  }
+}
+
+enter2.addEventListener('click', abrirFechar2);
+
+//fechar caixa2
+
+let cxfechar2 = document.getElementById("cxfechar2");
+
+cxfechar2.addEventListener('click', abrirFechar2);
+
+
+//caixa 3
+let caixa3 = document.getElementById("caixa3");
+let enter3 = document.getElementById("enter3");
+
+function abrirFechar3(){
+  if(caixa3.style.display==="block"){
+    caixa3.style.display = "none";
+  }else{
+    caixa3.style.display = "block";
+  }
+}
+
+enter3.addEventListener('click', abrirFechar3);
+
+//fechar caixa3
+
+let cxfechar3 = document.getElementById("cxfechar3");
+
+cxfechar3.addEventListener('click', abrirFechar3);
+
+
+
 // caixa de texto
 
 const texto1 = "Olá!";

@@ -134,6 +134,7 @@ body{
     color: #dcd8d8;
 }
 
+
 .cantainer-links{
     display: block;
     text-decoration: none;
@@ -146,12 +147,14 @@ body{
     background: #71B19A;
 }
 
+
+/*inicio caixa 1*/
 #caixa{
     position: absolute;
     width: 80%;
     height: 60%;
     left: 10%; 
-    top: 25%;
+    top: 22%;
     display: none;
     border: 0.01px solid rgba(181, 176, 176,0.2);
     background-repeat: no-repeat;
@@ -162,22 +165,27 @@ body{
     backdrop-filter: blur(15px); /* desfoca o conteúdo por trás */
     border-radius: 10px; /* bordas arredondadas */
     padding: 20px; /* espaçamento interno */
+    z-index: 3;
 }
 
 #cxfechar1{
     position: absolute;
     width: 60px;
     height: 60px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     top: -15px;
     left: -15px;
     border-radius: 50%;
-    border: none;
+    border:none;
     color: #e1dddd;
-    background:radial-gradient(closest-corner at 35% 50%, rgba(205, 199, 199, 0.8),transparent) #b30c0c;
+    background:radial-gradient(closest-corner at 34% 57%, rgba(205, 199, 199, 0.8),transparent) #b30c0c;
     cursor: pointer;
     z-index: 1;
     
+}
+#cxfechar1:hover{
+    font-size: 0.9rem;
+
 }
 
 #conteudo{
@@ -211,7 +219,7 @@ body{
 
 .javascript-titulo{
     position: relative;
-    color: rgb(232, 144, 21);
+    color: rgb(236, 232, 29);
     text-align: center;
     top: 2%;
     font-size: 2.1rem;
@@ -246,19 +254,268 @@ body{
 .javascript-link:hover{
     position: relative;
     text-align: center;
-    background: linear-gradient(90deg,rgba(33, 49, 39, 0.8),rgba(5, 36, 23, 0.8));
+    text-decoration: underline;
+    background: linear-gradient(90deg,rgba(26, 117, 121, 0.8),rgba(32, 143, 115, 0.8));
 }
 
-#javascript-icon-not{
+#icon-not{
     position: absolute;
     right: 5%;
     color: orange;
 }
-#javascript-icon-eye{
+#icon-eye{
     position: absolute;
     right: 5%;
     color: rgb(56, 201, 203);
 }
+
+/*final caixa1*/
+
+/*inicio caixa 2*/
+#caixa2{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 10%; 
+    top: 22%;
+    display: none;
+    border: 0.01px solid rgba(181, 176, 176,0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    background-color: rgba(122, 98, 98, 0.1); /* cor de fundo com transparência */
+    backdrop-filter: blur(15px); /* desfoca o conteúdo por trás */
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno */
+    z-index: 3;
+}
+
+#cxfechar2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 1.6rem;
+    top: -15px;
+    left: -15px;
+    border-radius: 50%;
+    border:none;
+    color: #e1dddd;
+    background:radial-gradient(closest-corner at 34% 57%, rgba(205, 199, 199, 0.8),transparent) #b30c0c;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+#cxfechar2:hover{
+    font-size: 0.8rem;
+
+}
+
+#conteudo2{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+   
+   
+   
+}
+#conteudo2::-webkit-scrollbar{
+    width: 5px;
+    border: 1px solid rgba(51, 51, 147, 0.1);
+}
+#conteudo2::-webkit-scrollbar-thumb{
+    background: hsl(223, 33%, 45%);
+    border-radius: 10px;
+}
+#caixa2 ul li{
+    list-style: none;
+    
+}
+
+#caixa2 ul{
+    position: relative;
+    margin: 2% 2%;
+    padding: 5px 5px;
+    border-radius: 10Px;
+    
+}
+
+.css-titulo{
+    position: relative;
+    color: rgb(121, 171, 243);
+    text-align: center;
+    top: 2%;
+    font-size: 2.1rem;
+   
+}
+
+.sub-titulo2{
+    position: relative;
+    top: -6px;
+    left: 1px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.css-link{
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin: 10px 0;
+    border: 0.01px solid rgba(181, 176, 176,0.3);
+    border-radius: 10px;
+    background: linear-gradient(90deg,rgba(16, 18, 23,0.9),rgba(33, 38, 52,0.6)); /* cor de fundo com transparência */
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno */
+    font-family: 'Roboto Mono', monospace;
+   
+}
+.css-link:hover{
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    background: linear-gradient(90deg,rgba(26, 117, 121, 0.8),rgba(32, 143, 115, 0.8));
+}
+
+#icon-not{
+    position: absolute;
+    right: 5%;
+    color: orange;
+}
+#icon-eye{
+    position: absolute;
+    right: 5%;
+    color: rgb(56, 201, 203);
+}
+
+/*final caixa2*/
+
+/*inicio caixa 3*/
+#caixa3{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 10%; 
+    top: 22%;
+    display: none;
+    border: 0.01px solid rgba(181, 176, 176,0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    background-color: rgba(122, 98, 98, 0.1); /* cor de fundo com transparência */
+    backdrop-filter: blur(15px); /* desfoca o conteúdo por trás */
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno */
+    z-index: 3;
+}
+
+#cxfechar3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 1.6rem;
+    top: -15px;
+    left: -15px;
+    border-radius: 50%;
+    border:none;
+    color: #e1dddd;
+    background:radial-gradient(closest-corner at 34% 57%, rgba(205, 199, 199, 0.8),transparent) #b30c0c;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+#cxfechar3:hover{
+    font-size: 0.9rem;
+
+}
+
+#conteudo3{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+   
+   
+   
+}
+#conteudo3::-webkit-scrollbar{
+    width: 5px;
+    border: 1px solid rgba(51, 51, 147, 0.1);
+}
+#conteudo3::-webkit-scrollbar-thumb{
+    background: hsl(223, 33%, 45%);
+    border-radius: 10px;
+}
+#caixa3 ul li{
+    list-style: none;
+    
+}
+
+#caixa3 ul{
+    position: relative;
+    margin: 2% 2%;
+    padding: 5px 5px;
+    border-radius: 10Px;
+    
+}
+
+.html-titulo{
+    position: relative;
+    color: rgb(232, 144, 21);
+    text-align: center;
+    top: 2%;
+    font-size: 2.1rem;
+   
+}
+
+.sub-titulo3{
+    position: relative;
+    top: -6px;
+    left: 1px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.html-link{
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin: 10px 0;
+    border: 0.01px solid rgba(181, 176, 176,0.3);
+    border-radius: 10px;
+    background: linear-gradient(90deg,rgba(16, 18, 23,0.9),rgba(33, 38, 52,0.6)); /* cor de fundo com transparência */
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno */
+    font-family: 'Roboto Mono', monospace;
+   
+}
+.html-link:hover{
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    background: linear-gradient(90deg,rgba(26, 117, 121, 0.8),rgba(32, 143, 115, 0.8));
+}
+
+#icon-not{
+    position: absolute;
+    right: 5%;
+    color: orange;
+}
+#icon-eye{
+    position: absolute;
+    right: 5%;
+    color: rgb(56, 201, 203);
+}
+
+/*final caixa3*/
 
 footer{
     height: 100px;
@@ -310,6 +567,14 @@ footer{
         margin-top: 20px;
         height: 100%;
     }
+    #caixa2{
+        margin-top: 20px;
+        height: 100%;
+    }
+    #caixa3{
+        margin-top: 20px;
+        height: 100%;
+    }
 
     
 }
@@ -321,6 +586,8 @@ footer{
         justify-content: space-around;
         top: 80px;
     }
+
+  
 }
 
 @media screen and (min-width:57rem){
@@ -360,6 +627,17 @@ footer{
         padding: 8px 25px;
     }
 
+    #caixa{
+        width: 350px;
+    }
+    #caixa2{
+        left: 30%;
+        width: 350px;
+    }
+    #caixa3{
+        left: 30%;
+        width: 350px;
+    }
    
 }
 
@@ -384,6 +662,30 @@ footer{
         margin: 0 30px;
     }
 
+    #caixa2{
+        left: 35%;
+        margin-top: 20px;
+        height: 100%;
+    }
+
+    #caixa3{
+        left: 60%;
+        margin-top: 20px;
+        height: 100%;
+    }
     
-    
+}
+
+@media screen and (min-width:65rem){
+   #caixa2{
+    left: 39%;
+   }
+    #caixa3{
+        left: 65%;
+    }
+}
+@media screen and (min-width:70rem){
+    #caixa3{
+        left: 68%;
+    }
 }
